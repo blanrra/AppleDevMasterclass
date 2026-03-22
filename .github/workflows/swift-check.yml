@@ -22,7 +22,7 @@ jobs:
         run: |
           echo "=== Compilando ejemplos Swift ==="
           FAILED=0
-          for file in $(find . -name "*.swift" -type f); do
+          for file in $(find . -name "*.swift" -type f ! -name "Package.swift"); do
             echo "Compilando: $file"
             if swiftc -typecheck "$file" 2>&1; then
               echo "  ✅ OK"
