@@ -4,6 +4,18 @@
 
 ---
 
+## TL;DR — Resumen en 2 minutos
+
+- **Type inference**: Swift deduce tipos automaticamente, pero puedes ser explicito cuando aporte claridad
+- **Optionals**: El sistema de Swift para manejar la ausencia de valor de forma segura (`nil` controlado, no crashes)
+- **Closures**: Bloques de codigo que puedes guardar en variables y pasar como parametros
+- **Structs vs Classes**: Structs = copias independientes (value type), Classes = referencias compartidas (reference type)
+- **Enums con associated values**: Enums que pueden llevar datos asociados, ideales para modelar estados
+
+> Herramienta recomendada: **Swift Playgrounds** (Nivel 1-2) o archivo `.swift` en terminal (Nivel 3-4)
+
+---
+
 ## Cupertino MCP
 
 ```bash

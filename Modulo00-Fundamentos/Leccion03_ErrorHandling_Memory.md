@@ -4,6 +4,16 @@
 
 ---
 
+## TL;DR — Resumen en 2 minutos
+
+- **Result type**: Encapsula exito o error en un solo valor — ideal para funciones que pueden fallar
+- **Typed throws** (Swift 6): Puedes especificar exactamente que tipo de error lanza una funcion
+- **ARC**: Swift cuenta automaticamente las referencias a objetos y los libera cuando llegan a cero
+- **Retain cycles**: Dos objetos que se referencian mutuamente nunca se liberan — solucion: `weak` o `unowned`
+- **Value vs Reference**: Los structs se copian (independientes), las clases se comparten (misma memoria)
+
+---
+
 ## Cupertino MCP
 
 ```bash

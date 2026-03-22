@@ -1,4 +1,4 @@
-# Modulo 05: Hardware y Sensores (Semanas 23-26)
+# Modulo 05: Hardware y Sensores (Semanas 27-30)
 
 ## Descripcion
 
@@ -8,9 +8,9 @@ Integracion con hardware del dispositivo: salud y fitness con HealthKit, ubicaci
 
 | # | Leccion | Semanas | Archivo |
 |---|---------|---------|---------|
-| L18 | HealthKit | 23-24 | Leccion18_HealthKit.md |
-| L19 | Location y Maps | 25 | Leccion19_LocationMaps.md |
-| L20 | Camera y Photos | 26 | Leccion20_CameraPhotos.md |
+| L22 | HealthKit | 27-28 | Leccion22_HealthKit.md |
+| L23 | Location y Maps | 29 | Leccion23_LocationMaps.md |
+| L24 | Camera y Photos | 30 | Leccion24_CameraPhotos.md |
 
 ## Objetivos
 
@@ -33,6 +33,15 @@ cupertino search "Core Location"
 cupertino search "AVFoundation camera"
 ```
 
+## Mini-Proyecto: Sensores para la App de Habitos
+
+Integrar en el Proyecto Integrador:
+- **HealthKit**: Leer pasos, sueno y actividad como habitos automaticos
+- **MapKit**: Visualizar donde se completaron habitos geolocalizados
+- **Camera**: Capturar foto como evidencia al completar un habito
+
+> El alumno elige al menos 2 de los 3 sensores para su proyecto.
+
 ---
 
-*Modulo 05 | Hardware y Sensores | Semanas 23-26 | 3 lecciones*
+*Modulo 05 | Hardware y Sensores | Semanas 27-30 | 3 lecciones*

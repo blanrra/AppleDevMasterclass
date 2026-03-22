@@ -1,4 +1,4 @@
-# Modulo 00: Fundamentos (Semanas 1-8)
+# Modulo 00: Fundamentos (Semanas 1-12)
 
 ## Descripcion
 
@@ -10,12 +10,16 @@ El modulo mas extenso del curriculum. Establece las bases solidas de Swift 6, Pr
 
 | # | Leccion | Semanas | Archivo |
 |---|---------|---------|---------|
-| L01 | Swift 6 Language | 1-2 | [Leccion01_Swift6Language.md](Leccion01_Swift6Language.md) |
-| L02 | POP y Genericos Avanzados | 2-3 | [Leccion02_POP_Generics.md](Leccion02_POP_Generics.md) |
-| L03 | Manejo de Errores y Memoria | 3-4 | [Leccion03_ErrorHandling_Memory.md](Leccion03_ErrorHandling_Memory.md) |
-| L04 | Concurrencia Moderna | 4-6 | [Leccion04_Concurrency.md](Leccion04_Concurrency.md) |
-| L05 | Xcode 26 | 6-7 | [Leccion05_Xcode26.md](Leccion05_Xcode26.md) |
-| L06 | SwiftUI Fundamentos | 7-8 | [Leccion06_SwiftUIFundamentals.md](Leccion06_SwiftUIFundamentals.md) |
+| L01 | Tu Primer Programa | 1 | [Leccion01_PrimerPrograma.md](Leccion01_PrimerPrograma.md) |
+| L02 | Control de Flujo | 2 | [Leccion02_ControlFlujo.md](Leccion02_ControlFlujo.md) |
+| L03 | Funciones y Closures | 3 | [Leccion03_FuncionesClosures.md](Leccion03_FuncionesClosures.md) |
+| L04 | Structs, Clases y Enums | 4 | [Leccion04_StructsClasesEnums.md](Leccion04_StructsClasesEnums.md) |
+| L05 | Swift 6 Language | 5-6 | [Leccion05_Swift6Language.md](Leccion05_Swift6Language.md) |
+| L06 | POP y Genericos Avanzados | 6-7 | [Leccion06_POP_Generics.md](Leccion06_POP_Generics.md) |
+| L07 | Manejo de Errores y Memoria | 7-8 | [Leccion07_ErrorHandling_Memory.md](Leccion07_ErrorHandling_Memory.md) |
+| L08 | Concurrencia Moderna | 8-10 | [Leccion08_Concurrency.md](Leccion08_Concurrency.md) |
+| L09 | Xcode 26 | 10-11 | [Leccion09_Xcode26.md](Leccion09_Xcode26.md) |
+| L10 | SwiftUI Fundamentos | 11-12 | [Leccion10_SwiftUIFundamentals.md](Leccion10_SwiftUIFundamentals.md) |
 
 ---
 
@@ -23,6 +27,10 @@ El modulo mas extenso del curriculum. Establece las bases solidas de Swift 6, Pr
 
 Al completar este modulo seras capaz de:
 
+- [ ] Escribir tu primer programa Swift y entender tipos basicos
+- [ ] Dominar control de flujo: if, switch, for, while, guard
+- [ ] Crear funciones, closures y entender captura de valores
+- [ ] Diferenciar structs, clases y enums; saber cuando usar cada uno
 - [ ] Dominar Swift 6: optionals, closures, structs/classes, enums, genericos
 - [ ] Aplicar Protocol-Oriented Programming con extensions y composicion
 - [ ] Manejar errores robustamente con Result, typed throws y do-catch
@@ -35,9 +43,9 @@ Al completar este modulo seras capaz de:
 
 ## Prerequisitos
 
-- Conocimiento basico de Swift (variables, funciones, control flow)
-- Haber creado al menos una vista simple en SwiftUI
-- Conceptos basicos de programacion orientada a objetos
+- Nivel 1: Ninguno. Nivel 2+: Conocimiento basico de programacion
+- Se recomienda Swift Playgrounds para las lecciones L01-L04 (Nivel 1-2)
+- Conceptos basicos de programacion orientada a objetos (para L05 en adelante)
 
 ---
 
@@ -71,7 +79,7 @@ cupertino search "SwiftUI fundamentals"
 
 ## Proyecto Practico del Modulo
 
-Al finalizar las 6 lecciones, crear una **libreria de networking type-safe** que use:
+Al finalizar las 10 lecciones, crear una **libreria de networking type-safe** que use:
 - Genericos para requests/responses
 - async/await para llamadas de red
 - Manejo robusto de errores con Result
@@ -79,4 +87,15 @@ Al finalizar las 6 lecciones, crear una **libreria de networking type-safe** que
 
 ---
 
-*Modulo 00 — Fundamentos | Semanas 1-8 | 6 lecciones*
+## Mini-Proyecto: Calculadora CLI
+
+Construir una **calculadora en terminal** que evoluciona con cada bloque:
+- **Bloque A** (L01-L04): Calculadora basica con operaciones y historial
+- **Bloque B** (L05-L08): Refactorizar con protocolos, genericos y async
+- **Bloque C** (L09-L10): Convertir a app SwiftUI con interfaz grafica
+
+> Este mini-proyecto se conecta con el Proyecto Integrador como base para la capa de logica de negocio.
+
+---
+
+*Modulo 00 — Fundamentos | Semanas 1-12 | 10 lecciones*

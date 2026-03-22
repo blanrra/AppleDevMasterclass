@@ -1,4 +1,4 @@
-# Modulo 08: Plataformas (Semanas 35-38)
+# Modulo 08: Plataformas (Semanas 39-42)
 
 ## Descripcion
 
@@ -8,9 +8,9 @@ Expandir tu app a todas las plataformas Apple: watchOS, visionOS y macOS/iPadOS.
 
 | # | Leccion | Semanas | Archivo |
 |---|---------|---------|---------|
-| L27 | watchOS | 35-36 | Leccion27_watchOS.md |
-| L28 | visionOS | 37 | Leccion28_visionOS.md |
-| L29 | macOS e iPadOS | 38 | Leccion29_macOS_iPadOS.md |
+| L31 | watchOS | 39-40 | Leccion31_watchOS.md |
+| L32 | visionOS | 41 | Leccion32_visionOS.md |
+| L33 | macOS e iPadOS | 42 | Leccion33_macOS_iPadOS.md |
 
 ## Objetivos
 
@@ -31,6 +31,15 @@ cupertino search "RealityKit"
 cupertino search "macOS SwiftUI"
 ```
 
+## Mini-Proyecto: App Multiplataforma
+
+Expandir el Proyecto Integrador:
+- **watchOS**: Complicacion con habitos del dia + app companion
+- **visionOS**: Vista inmersiva de estadisticas de habitos
+- **macOS/iPadOS**: Interfaz adaptada con sidebar y multitasking
+
+> El alumno implementa al menos 1 plataforma adicional a iOS.
+
 ---
 
-*Modulo 08 | Plataformas | Semanas 35-38 | 3 lecciones*
+*Modulo 08 | Plataformas | Semanas 39-42 | 3 lecciones*

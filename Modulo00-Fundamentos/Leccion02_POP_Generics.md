@@ -4,6 +4,16 @@
 
 ---
 
+## TL;DR — Resumen en 2 minutos
+
+- **POP > OOP**: En Swift, los protocolos son mas flexibles que la herencia — definen "que puede hacer" algo, no "que es"
+- **Protocol extensions**: Puedes dar implementaciones por defecto a un protocolo — todos los conformantes las heredan gratis
+- **Protocol composition** (`&`): Combinar multiples protocolos en un solo requisito
+- **some vs any**: `some` = tipo concreto oculto (mejor performance), `any` = cualquier tipo que conforme (mas flexible)
+- **Genericos con constraints**: Funciones que trabajan con cualquier tipo que cumpla ciertos requisitos
+
+---
+
 ## Cupertino MCP
 
 ```bash

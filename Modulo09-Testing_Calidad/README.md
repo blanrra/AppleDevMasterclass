@@ -1,4 +1,4 @@
-# Modulo 09: Testing y Calidad (Semanas 39-42)
+# Modulo 09: Testing y Calidad (Semanas 43-46)
 
 ## Descripcion
 
@@ -8,9 +8,9 @@ Testing completo: unit tests con XCTest, el nuevo framework Swift Testing, UI te
 
 | # | Leccion | Semanas | Archivo |
 |---|---------|---------|---------|
-| L30 | XCTest | 39-40 | Leccion30_XCTest.md |
-| L31 | Swift Testing | 41 | Leccion31_SwiftTesting.md |
-| L32 | UI Testing y SwiftLint | 42 | Leccion32_UITesting_SwiftLint.md |
+| L34 | XCTest | 43-44 | Leccion34_XCTest.md |
+| L35 | Swift Testing | 45 | Leccion35_SwiftTesting.md |
+| L36 | UI Testing y SwiftLint | 46 | Leccion36_UITesting_SwiftLint.md |
 
 ## Objetivos
 
@@ -31,6 +31,16 @@ cupertino search "Swift Testing"
 cupertino search "UI testing Xcode"
 ```
 
+## Mini-Proyecto: Test Suite Completa
+
+Crear suite de tests para el Proyecto Integrador:
+- **Unit tests**: Cobertura >80% de la logica de negocio
+- **Swift Testing**: Migrar tests clave al framework moderno
+- **UI Tests**: Flujos criticos (crear habito, completar, ver estadisticas)
+- **SwiftLint**: Configurar reglas y CI/CD basico
+
+> Objetivo: el alumno nunca mas publica codigo sin tests.
+
 ---
 
-*Modulo 09 | Testing y Calidad | Semanas 39-42 | 3 lecciones*
+*Modulo 09 | Testing y Calidad | Semanas 43-46 | 3 lecciones*

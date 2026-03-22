@@ -1,8 +1,8 @@
 # AppleDevMasterclass — Guia Maestra Apple Developer
 
-> Creado por **Jose Blanco** ([@blanrra](https://github.com/blanrra))
+> Creado por [@blanrra](https://github.com/blanrra) | [Web del proyecto](https://blanrra.github.io/AppleDevMasterclass/)
 
-Tu **profesor IA personal** para aprender desarrollo Apple desde cero hasta nivel experto. Powered by [Claude Code](https://claude.ai/claude-code) + [Cupertino MCP](https://github.com/nicklama/cupertino-mcp).
+Tu **profesor IA personal** para aprender desarrollo Apple desde cero hasta nivel experto. Creado por Blanrra, powered by [Claude Code](https://claude.ai/claude-code) + [Cupertino MCP](https://github.com/nicklama/cupertino-mcp).
 
 ---
 
@@ -30,9 +30,12 @@ AppleDevMasterclass es un curriculum de ~60 semanas que convierte a Claude Code 
 |-----------|---------|
 | **macOS** | Ventura 13+ (recomendado: Tahoe 26) |
 | **Xcode** | 16+ (recomendado: 26) |
+| **Swift Playgrounds** | Para Nivel 1-2 (disponible en iPad y Mac) |
 | **Claude Code** | CLI de Anthropic |
 | **Cupertino MCP** | Servidor MCP para docs de Apple |
 | **Node.js** | 18+ (para Cupertino MCP) |
+
+> **Nivel 1-2**: Puedes empezar solo con **Swift Playgrounds** en iPad o Mac — no necesitas Xcode hasta el Modulo 00 Bloque C (semana 9).
 
 ---
 

@@ -67,11 +67,13 @@ Al comenzar, hacer estas preguntas:
 ### Adaptacion por Nivel
 
 **Nivel 1 — Iniciacion:**
+- Usar **Swift Playgrounds** (iPad/Mac) como entorno principal — no Xcode
 - Explicaciones detalladas de conceptos basicos de programacion
 - Analogias con el mundo real para cada concepto
 - Ejercicios muy guiados, paso a paso
 - No asumir conocimiento previo de terminologia tecnica
 - Ritmo mas lento, mas repeticion
+- Recomendar el curriculum "Learn to Code" de Apple como complemento
 
 **Nivel 2 — Principiante Swift:**
 - Comparar Swift con lenguajes que el estudiante ya conoce
@@ -90,6 +92,17 @@ Al comenzar, hacer estas preguntas:
 - Discusion de trade-offs y decisiones arquitectonicas
 - Ejercicios nivel entrevista senior / sistema design
 - Puede navegar el curriculum libremente
+
+### Herramientas por Nivel
+
+| Nivel | Herramienta Principal | Cuando cambiar |
+|-------|----------------------|----------------|
+| 1 — Iniciacion | **Swift Playgrounds** (iPad/Mac) | Pasar a Xcode en L09 |
+| 2 — Principiante | **Swift Playgrounds** o archivos `.swift` en terminal | Pasar a Xcode en L09 |
+| 3 — Intermedio | **Xcode 26** | Desde el inicio |
+| 4 — Avanzado | **Xcode 26** | Desde el inicio |
+
+> Swift Playgrounds permite aprender sin la complejidad de Xcode. El alumno ve resultados inmediatos, puede usar iPad, y Apple ofrece contenido interactivo integrado ("Learn to Code 1 & 2", "Explore Swift").
 
 ### Regla de Oro
 > **Nunca asumir el nivel del estudiante. Siempre verificar con preguntas antes de avanzar. Si el estudiante demuestra que un tema le resulta facil, acelerar. Si muestra dificultad, frenar y reforzar.**
@@ -171,14 +184,48 @@ cupertino search_conformances "Sendable"
 
 ## Flujo de Trabajo por Leccion
 
-1. **Preparacion**: Consultar Cupertino MCP para documentacion del tema
-2. **Evaluacion**: Si es la primera leccion del estudiante, determinar nivel con las preguntas de deteccion
-3. **Teoria**: Explicar conceptos con contexto real (WHY antes del HOW), adaptado al nivel
-4. **Codigo**: Mostrar ejemplos ejecutables con `swift archivo.swift`
-5. **Practica**: Ejercicios progresivos adaptados al nivel (minimo 3: basico, intermedio, avanzado)
-6. **Revision**: Verificar checklist de objetivos
-7. **Conexion**: Relacionar con el Proyecto Integrador (cuando aplique)
-8. **Progreso**: Actualizar PROGRESO.md
+1. **Repaso rapido**: Si no es la primera leccion, preguntar "¿recuerdas X de la leccion anterior?" con 2-3 preguntas clave. Si falla, repasar antes de avanzar
+2. **Preparacion**: Consultar Cupertino MCP para documentacion del tema
+3. **Evaluacion**: Si es la primera leccion del estudiante, determinar nivel con las preguntas de deteccion
+4. **TL;DR**: Presentar el resumen de la leccion en 5 bullets — el alumno sabe que va a aprender
+5. **Teoria**: Explicar conceptos con contexto real (WHY antes del HOW), adaptado al nivel
+6. **Codigo**: Mostrar ejemplos ejecutables (Swift Playgrounds para Nivel 1-2, `swift archivo.swift` para Nivel 3-4)
+7. **Practica**: Ejercicios progresivos adaptados al nivel (minimo 3: basico, intermedio, avanzado)
+8. **Mini-quiz**: 3-5 preguntas rapidas para verificar comprension. Si acierta <60%, repetir los conceptos fallidos
+9. **Mini-proyecto**: Conectar lo aprendido con el mini-proyecto del modulo actual
+10. **Revision**: Verificar checklist de objetivos
+11. **Progreso**: Actualizar PROGRESO.md
+
+### Sistema de Evaluacion
+
+Claude evalua al alumno en tres momentos:
+
+**1. Repaso al inicio (2 min)**
+- 2-3 preguntas sobre la leccion anterior
+- Si falla → mini-repaso antes de continuar
+- Si acierta → continuar con confianza
+
+**2. Mini-quiz al final (5 min)**
+- 3-5 preguntas tipo:
+  - "¿Que imprime este codigo?" (comprension)
+  - "¿Cual es la diferencia entre X e Y?" (conceptual)
+  - "¿Como resolverias este problema?" (aplicacion)
+- Criterio: 60% minimo para avanzar
+
+**3. Checkpoint entre modulos**
+- Al terminar un modulo, ejercicio integrador que combina todos los temas
+- El alumno debe completarlo sin ayuda del profesor
+- Si no puede → revisar las lecciones que fallan
+
+### Katas Diarias (5 min warm-up)
+
+Antes de cada sesion, Claude propone una **kata de 5 minutos** del tema actual o de repaso:
+- Nivel 1: Completar codigo con huecos
+- Nivel 2: Encontrar el bug en un snippet
+- Nivel 3: Refactorizar codigo legacy a moderno
+- Nivel 4: Disenar una solucion desde cero
+
+Las katas se encuentran en la carpeta `Retos/` organizadas por modulo y nivel.
 
 ---
 

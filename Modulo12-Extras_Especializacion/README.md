@@ -1,4 +1,4 @@
-# Modulo 12: Extras y Especializacion (Semanas 47-48)
+# Modulo 12: Extras y Especializacion (Semanas 51-52)
 
 ## Descripcion
 
@@ -8,10 +8,10 @@ Temas avanzados de especializacion: Server-Side Swift con Vapor, graficos con Me
 
 | # | Leccion | Semana | Archivo |
 |---|---------|--------|---------|
-| L37 | Server-Side Swift | 47 | Leccion37_ServerSideSwift.md |
-| L38 | Metal y Graficos | 47 | Leccion38_Metal_Graficos.md |
-| L39 | Combine (Legacy Reference) | 48 | Leccion39_Combine.md |
-| L40 | Open Source y Comunidad | 48 | Leccion40_OpenSource.md |
+| L41 | Server-Side Swift | 51 | Leccion41_ServerSideSwift.md |
+| L42 | Metal y Graficos | 51 | Leccion42_Metal_Graficos.md |
+| L43 | Combine (Legacy Reference) | 52 | Leccion43_Combine.md |
+| L44 | Open Source y Comunidad | 52 | Leccion44_OpenSource.md |
 
 ## Objetivos
 
@@ -33,6 +33,15 @@ cupertino search "Combine framework"
 cupertino search "Swift evolution"
 ```
 
+## Mini-Proyecto: Especializacion Libre
+
+El alumno elige un area de especializacion para su proyecto:
+- **Server-Side**: API backend con Vapor para sincronizar habitos
+- **Metal**: Visualizaciones 3D de estadisticas
+- **Open Source**: Publicar una libreria extraida del proyecto
+
+> Semana 52: version final del Proyecto Integrador lista para App Store.
+
 ---
 
-*Modulo 12 | Extras y Especializacion | Semanas 47-48 | 4 lecciones*
+*Modulo 12 | Extras y Especializacion | Semanas 51-52 | 4 lecciones*

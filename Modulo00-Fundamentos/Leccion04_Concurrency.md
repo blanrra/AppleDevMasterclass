@@ -4,6 +4,16 @@
 
 ---
 
+## TL;DR — Resumen en 2 minutos
+
+- **async/await**: Escribir codigo asincrono que se lee como codigo normal — adios a los callbacks anidados
+- **Task y TaskGroup**: Task lanza trabajo asincrono, TaskGroup coordina multiples tareas en paralelo
+- **Actors**: Protegen estado mutable de accesos concurrentes — como una clase con un candado automatico
+- **Sendable**: Protocolo que garantiza que un tipo es seguro para compartir entre hilos
+- **AsyncSequence**: Secuencias que producen valores de forma asincrona — ideal para streams de datos
+
+---
+
 ## Cupertino MCP
 
 ```bash

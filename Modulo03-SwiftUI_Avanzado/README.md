@@ -1,4 +1,4 @@
-# Modulo 03: SwiftUI Avanzado (Semanas 13-18)
+# Modulo 03: SwiftUI Avanzado (Semanas 17-22)
 
 ## Descripcion
 
@@ -8,10 +8,10 @@ SwiftUI a fondo: navegacion compleja, composicion avanzada de vistas, listas de 
 
 | # | Leccion | Semanas | Archivo |
 |---|---------|---------|---------|
-| L11 | Navegacion Avanzada | 13-14 | Leccion11_Navegacion.md |
-| L12 | Composicion de Vistas | 15 | Leccion12_Composicion.md |
-| L13 | Listas y Colecciones | 16 | Leccion13_Listas.md |
-| L14 | Animaciones y Transiciones | 17-18 | Leccion14_Animaciones.md |
+| L15 | Navegacion Avanzada | 17-18 | Leccion15_Navegacion.md |
+| L16 | Composicion de Vistas | 19 | Leccion16_Composicion.md |
+| L17 | Listas y Colecciones | 20 | Leccion17_Listas.md |
+| L18 | Animaciones y Transiciones | 21-22 | Leccion18_Animaciones.md |
 
 ## Objetivos
 
@@ -39,4 +39,16 @@ App de seguimiento de habitos con navegacion compleja, listas optimizadas y anim
 
 ---
 
-*Modulo 03 | SwiftUI Avanzado | Semanas 13-18 | 4 lecciones*
+## Mini-Proyecto: App de Habitos
+
+Crear una **app de seguimiento de habitos** desde cero que use:
+- **Navegacion**: NavigationStack con rutas programaticas
+- **Composicion**: Custom ViewModifiers y ViewBuilders reutilizables
+- **Listas**: LazyVStack con paginacion y busqueda
+- **Animaciones**: Transiciones fluidas y feedback visual al completar habitos
+
+> Esta app se convierte en la base del Proyecto Integrador.
+
+---
+
+*Modulo 03 | SwiftUI Avanzado | Semanas 17-22 | 4 lecciones*

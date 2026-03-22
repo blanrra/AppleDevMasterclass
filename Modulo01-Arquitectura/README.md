@@ -1,4 +1,4 @@
-# Modulo 01: Arquitectura (Semanas 9-10)
+# Modulo 01: Arquitectura (Semanas 13-14)
 
 ## Descripcion
 
@@ -8,8 +8,8 @@ Patrones arquitectonicos para apps SwiftUI escalables. MVVM como patron principa
 
 | # | Leccion | Semana | Archivo |
 |---|---------|--------|---------|
-| L07 | MVVM en SwiftUI | 9 | Leccion07_MVVM.md |
-| L08 | Clean Architecture y DI | 10 | Leccion08_CleanArchitecture.md |
+| L11 | MVVM en SwiftUI | 13 | Leccion11_MVVM.md |
+| L12 | Clean Architecture y DI | 14 | Leccion12_CleanArchitecture.md |
 
 ## Objetivos
 
@@ -36,4 +36,15 @@ Refactorizar la app del Modulo 00 aplicando Clean Architecture con capas bien de
 
 ---
 
-*Modulo 01 | Arquitectura | Semanas 9-10 | 2 lecciones*
+## Mini-Proyecto: Refactorizar la Calculadora
+
+Tomar la calculadora del Modulo 00 y aplicar:
+- **MVVM**: Separar logica en ViewModel con @Observable
+- **Clean Architecture**: Crear capas Presentation/Domain/Data
+- **DI**: Inyectar dependencias via protocolos y Environment
+
+> Resultado: una app bien arquitecturada lista para crecer.
+
+---
+
+*Modulo 01 | Arquitectura | Semanas 13-14 | 2 lecciones*

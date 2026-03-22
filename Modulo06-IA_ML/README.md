@@ -1,4 +1,4 @@
-# Modulo 06: IA y ML (Semanas 27-30)
+# Modulo 06: IA y ML (Semanas 31-34)
 
 ## Descripcion
 
@@ -8,9 +8,9 @@ Inteligencia artificial on-device con Foundation Models (iOS 26), generacion de 
 
 | # | Leccion | Semanas | Archivo |
 |---|---------|---------|---------|
-| L21 | Foundation Models | 27-28 | Leccion21_FoundationModels.md |
-| L22 | ImagePlayground | 29 | Leccion22_ImagePlayground.md |
-| L23 | CoreML y Vision | 30 | Leccion23_CoreML_Vision.md |
+| L25 | Foundation Models | 31-32 | Leccion25_FoundationModels.md |
+| L26 | ImagePlayground | 33 | Leccion26_ImagePlayground.md |
+| L27 | CoreML y Vision | 34 | Leccion27_CoreML_Vision.md |
 
 ## Objetivos
 
@@ -33,6 +33,15 @@ cupertino search "CoreML"
 cupertino search "Vision framework"
 ```
 
+## Mini-Proyecto: IA para la App de Habitos
+
+Anadir inteligencia al Proyecto Integrador:
+- **Foundation Models**: Generar sugerencias personalizadas de habitos
+- **ImagePlayground**: Crear iconos unicos para cada habito
+- **CoreML**: Predecir probabilidad de completar un habito segun historial
+
+> El alumno implementa al menos 1 feature de IA.
+
 ---
 
-*Modulo 06 | IA y ML | Semanas 27-30 | 3 lecciones*
+*Modulo 06 | IA y ML | Semanas 31-34 | 3 lecciones*
