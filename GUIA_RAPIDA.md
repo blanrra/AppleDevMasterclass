@@ -1,16 +1,14 @@
 # Guia Rapida — AppleDevMasterclass
 
-## Leccion Actual
+## Estado del Proyecto
 
-**Modulo 00: Fundamentos** | Leccion 01: Tu Primer Programa en Swift | Semana 1
-
-### Comandos Cupertino para esta leccion
-```bash
-cupertino search --source swift-book "the basics"
-cupertino search "swift programming language"
-cupertino search "Swift variables constants"
-cupertino search "Swift basic types"
-```
+| Metrica | Valor |
+|---------|-------|
+| **Lecciones** | 44 completas |
+| **Modulos** | 14 (00-13) |
+| **Archivos Swift** | 11 ejecutables |
+| **Idiomas** | ES + EN (template) |
+| **Web** | [blanrra.github.io/AppleDevMasterclass](https://blanrra.github.io/AppleDevMasterclass/) |
 
 ---
 
@@ -20,10 +18,15 @@ cupertino search "Swift basic types"
 |-----------|-------------|
 | [README.md](README.md) | Que es esto y como configurarlo |
 | [PLAN_MAESTRO.md](PLAN_MAESTRO.md) | Curriculum completo ~60 semanas |
-| [PROGRESO.md](PROGRESO.md) | Tracking detallado |
+| [PROGRESO.md](PROGRESO.md) | Tracking detallado + mapa visual |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Como contribuir + Study Buddy Mode |
+| [Retos/](Retos/README.md) | Katas diarias de 5 minutos |
+| [Showcase/](Showcase/README.md) | Proyectos de alumnos |
 | [Recursos/CupertinoCheatsheet.md](Recursos/CupertinoCheatsheet.md) | Comandos Cupertino |
 | [Recursos/FormadoresRecomendados.md](Recursos/FormadoresRecomendados.md) | Formadores de elite |
-| [ProyectoIntegrador/README.md](ProyectoIntegrador/README.md) | Proyecto capstone |
+| [Recursos/VideosRecomendados.md](Recursos/VideosRecomendados.md) | Videos por modulo |
+| [ProyectoIntegrador/](ProyectoIntegrador/README.md) | Proyecto capstone |
+| [i18n/](i18n/README.md) | Traducciones |
 
 ---
 
@@ -40,21 +43,39 @@ cupertino search "Swift basic types"
 
 ## Modulos
 
-| # | Modulo | Semanas | Estado |
-|---|--------|---------|--------|
-| 00 | Fundamentos | 1-12 | Pendiente |
-| 01 | Arquitectura | 13-14 | Pendiente |
-| 02 | Diseno y UX | 15-16 | Pendiente |
-| 03 | SwiftUI Avanzado | 17-22 | Pendiente |
-| 04 | Datos y Persistencia | 23-26 | Pendiente |
-| 05 | Hardware y Sensores | 27-30 | Pendiente |
-| 06 | IA y ML | 31-34 | Pendiente |
-| 07 | Integracion Sistema | 35-38 | Pendiente |
-| 08 | Plataformas | 39-42 | Pendiente |
-| 09 | Testing y Calidad | 43-46 | Pendiente |
-| 10 | Seguridad y Performance | 47-48 | Pendiente |
-| 11 | Monetizacion y Distribucion | 49-50 | Pendiente |
-| 12 | Extras y Especializacion | 51-52 | Pendiente |
+| # | Modulo | Semanas | Lecciones |
+|---|--------|---------|-----------|
+| 00 | Fundamentos | 1-12 | L01-L10 |
+| 01 | Arquitectura | 13-14 | L11-L12 |
+| 02 | Diseno y UX | 15-16 | L13-L14 |
+| 03 | SwiftUI Avanzado | 17-22 | L15-L18 |
+| 04 | Datos y Persistencia | 23-26 | L19-L21 |
+| 05 | Hardware y Sensores | 27-30 | L22-L24 |
+| 06 | IA y ML | 31-34 | L25-L27 |
+| 07 | Integracion Sistema | 35-38 | L28-L30 |
+| 08 | Plataformas | 39-42 | L31-L33 |
+| 09 | Testing y Calidad | 43-46 | L34-L36 |
+| 10 | Seguridad y Performance | 47-48 | L37-L38 |
+| 11 | Monetizacion y Distribucion | 49-50 | L39-L40 |
+| 12 | Extras y Especializacion | 51-52 | L41-L44 |
+| 13 | Entrevistas iOS | Bonus | Simulaciones |
+
+---
+
+## Comandos del Alumno
+
+```
+"Empecemos con la leccion 1"          → Iniciar leccion
+"Explicame como si tuviera 5 anos"    → Simplificar al maximo
+"Dame el reto del dia"                → Kata de 5 minutos
+"Modo entrevista senior"              → Simular entrevista iOS
+"Flashcards"                          → Tarjetas de repaso
+"Modo examen"                         → Examen del modulo
+"Errores comunes"                     → 5 errores tipicos
+"Muestra mi progreso"                 → Mapa visual
+"Muestra mis logros"                  → Badges desbloqueados
+"Saltemos a [tema]"                   → Navegar libremente
+```
 
 ---
 
@@ -65,8 +86,9 @@ cupertino search "tema"                        # Busqueda general
 cupertino search --source apple-docs "tema"    # Solo docs oficiales
 cupertino search --source swift-book "tema"    # Solo libro Swift
 cupertino search --source hig "tema"           # Solo HIG
+cupertino search --source updates "tema"       # Novedades
 cupertino read "article-slug"                  # Leer articulo
-cupertino list-samples                         # Ver samples disponibles
+cupertino list-samples                         # Ver samples
 cupertino read-sample "sample-name"            # Leer sample
 cupertino list-frameworks                      # Listar frameworks
 ```
