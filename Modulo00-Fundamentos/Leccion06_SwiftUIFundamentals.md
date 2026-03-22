@@ -1,6 +1,18 @@
 # Leccion 06: SwiftUI Fundamentos
 
-**Modulo 00: Fundamentos** | Semanas 7-8
+**Modulo 00: Fundamentos** | Semanas 11-12
+
+---
+
+## TL;DR — Resumen en 2 minutos
+
+- **SwiftUI = UI como funcion del estado**: cuando el estado cambia, la UI se actualiza sola — no mas bugs de sincronizacion
+- **@State**: estado local de una vista — SwiftUI lo gestiona y re-renderiza cuando cambia
+- **@Binding**: una vista hija puede leer y modificar el estado de su padre con `$variable`
+- **@Observable**: la forma moderna de crear ViewModels — reemplaza a ObservableObject/Combine
+- **Stacks + Modifiers**: VStack/HStack/ZStack para layout, `.font()/.padding()/.background()` para estilo
+
+> Herramienta: **Xcode 26** con SwiftUI Previews para ver cambios en tiempo real
 
 ---
 
@@ -441,5 +453,5 @@ SwiftUI sera la base visual de todo tu Proyecto Integrador:
 
 ---
 
-*Leccion 06 | SwiftUI Fundamentos | Semanas 7-8 | Modulo 00: Fundamentos*
-*Siguiente: Modulo 01 — Leccion 07: MVVM en SwiftUI*
+*Leccion 06 (L10) | SwiftUI Fundamentos | Semanas 11-12 | Modulo 00: Fundamentos*
+*Siguiente: Modulo 01 — Leccion 11: MVVM en SwiftUI*

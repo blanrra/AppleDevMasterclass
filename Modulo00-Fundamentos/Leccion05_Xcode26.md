@@ -1,6 +1,18 @@
 # Leccion 05: Xcode 26
 
-**Modulo 00: Fundamentos** | Semanas 6-7
+**Modulo 00: Fundamentos** | Semanas 9-10
+
+---
+
+## TL;DR — Resumen en 2 minutos
+
+- **Xcode es tu taller completo**: editor, debugger, profiler, simulador y sistema de build en uno
+- **Breakpoints + LLDB**: tu mejor amigo para encontrar bugs — aprende `po`, `p` y breakpoints condicionales
+- **SwiftUI Previews**: ves los cambios en tiempo real sin compilar — usa `#Preview` con diferentes configs
+- **SPM**: gestiona dependencias externas directamente desde Xcode — sin CocoaPods ni Carthage
+- **Instruments**: cuando tu app va lenta, Instruments te dice exactamente donde esta el problema
+
+> Esta leccion requiere **Xcode 26** instalado. Los niveles 1-2 pasan de Swift Playgrounds a Xcode aqui.
 
 ---
 
@@ -277,5 +289,5 @@ Tu Proyecto Integrador sera un proyecto Xcode real:
 
 ---
 
-*Leccion 05 | Xcode 26 | Semanas 6-7 | Modulo 00: Fundamentos*
-*Siguiente: Leccion 06 — SwiftUI Fundamentos*
+*Leccion 05 (L09) | Xcode 26 | Semanas 9-10 | Modulo 00: Fundamentos*
+*Siguiente: Leccion 06 (L10) — SwiftUI Fundamentos*
