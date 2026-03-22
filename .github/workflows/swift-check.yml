@@ -3,10 +3,11 @@ name: Swift Code Check
 on:
   push:
     branches: [ main ]
-    paths: [ '**/*.swift' ]
+    paths: [ '**/*.swift', '.github/workflows/swift-check.yml' ]
   pull_request:
     branches: [ main ]
     paths: [ '**/*.swift' ]
+  workflow_dispatch:
 
 jobs:
   compile-swift:
