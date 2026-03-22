@@ -147,6 +147,7 @@ El profesor se adapta a ti:
 | 10 | **Seguridad y Performance** | CryptoKit, Privacy Manifests, Instruments |
 | 11 | **Monetizacion** | StoreKit 2, App Store, TestFlight |
 | 12 | **Extras** | Server-Side Swift, Metal, Combine, Open Source |
+| 13 | **Entrevistas iOS** | (Bonus) Preguntas Junior→FAANG, mock interviews, system design |
 
 Mas un **Proyecto Integrador** que construyes incrementalmente a lo largo del curriculum.
 
@@ -158,8 +159,12 @@ Mas un **Proyecto Integrador** que construyes incrementalmente a lo largo del cu
 |---------|----------|
 | `CLAUDE.md` | El cerebro del profesor — instrucciones para Claude |
 | `PLAN_MAESTRO.md` | Curriculum completo con todas las lecciones |
-| `PROGRESO.md` | Tu tracking personal de avance |
+| `PROGRESO.md` | Tu tracking personal de avance + logros |
 | `GUIA_RAPIDA.md` | Referencia rapida de comandos y estado |
+| `Retos/` | Katas diarias de 5 minutos como warm-up |
+| `Showcase/` | Proyectos de alumnos que completaron el curriculum |
+| `i18n/` | Traducciones del profesor a otros idiomas |
+| `CONTRIBUTING.md` | Guia para contribuir + Study Buddy Mode |
 | `Recursos/` | Cheatsheets y material complementario |
 
 ---
@@ -172,8 +177,15 @@ Una vez dentro de Claude Code, puedes pedirle al profesor cosas como:
 - *"Explicame por que existen los optionals"*
 - *"Dame un ejercicio mas dificil"*
 - *"No entiendo este concepto, explicamelo de otra forma"*
+- *"Explicame como si tuviera 5 anos"*
 - *"Saltemos a SwiftUI, ya se lo basico de Swift"*
 - *"Muestra mi progreso"*
+- *"Dame el reto del dia"* — kata de 5 minutos
+- *"Modo entrevista senior"* — simula entrevista tecnica iOS
+- *"Flashcards"* — genera tarjetas de repaso
+- *"Modo examen"* — examen del modulo actual
+- *"Errores comunes"* — los 5 errores tipicos del tema
+- *"Muestra mis logros"* — tu coleccion de badges
 
 ---
 

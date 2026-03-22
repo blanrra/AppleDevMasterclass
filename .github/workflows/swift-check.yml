@@ -1,0 +1,40 @@
+name: Swift Code Check
+
+on:
+  push:
+    branches: [ main ]
+    paths: [ '**/*.swift' ]
+  pull_request:
+    branches: [ main ]
+    paths: [ '**/*.swift' ]
+
+jobs:
+  compile-swift:
+    name: Compilar ejemplos Swift
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Swift version
+        run: swift --version
+
+      - name: Compilar todos los archivos .swift
+        run: |
+          echo "=== Compilando ejemplos Swift ==="
+          FAILED=0
+          for file in $(find . -name "*.swift" -type f); do
+            echo "Compilando: $file"
+            if swift -typecheck "$file" 2>&1; then
+              echo "  ✅ OK"
+            else
+              echo "  ❌ FALLO"
+              FAILED=$((FAILED + 1))
+            fi
+          done
+          echo ""
+          if [ $FAILED -gt 0 ]; then
+            echo "❌ $FAILED archivo(s) fallaron la compilación"
+            exit 1
+          else
+            echo "✅ Todos los archivos compilan correctamente"
+          fi
