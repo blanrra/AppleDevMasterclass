@@ -210,4 +210,4 @@ MIT — usa, modifica y comparte libremente.
 
 ---
 
-*Creado por Jose Blanco ([@blanrra](https://github.com/blanrra)) con Claude Code*
+*Creado por [@blanrra](https://github.com/blanrra) con Claude Code*
