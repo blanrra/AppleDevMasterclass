@@ -1,0 +1,15 @@
+{
+  "name": "appledevmasterclass-mcp",
+  "version": "1.0.0",
+  "description": "MCP server que expone el curriculum AppleDevMasterclass como herramienta para agentes IA",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "author": "Blanrra",
+  "license": "MIT"
+}
