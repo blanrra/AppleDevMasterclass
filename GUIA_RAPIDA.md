@@ -1,16 +1,15 @@
-# Guia Rapida — Apple Developer Learning
+# Guia Rapida — AppleDevMasterclass
 
 ## Leccion Actual
 
-**Modulo 00: Fundamentos** | Leccion 01: Swift 6 Language | Semanas 1-2
+**Modulo 00: Fundamentos** | Leccion 01: Tu Primer Programa en Swift | Semana 1
 
 ### Comandos Cupertino para esta leccion
 ```bash
-cupertino search --source swift-book "language guide"
+cupertino search --source swift-book "the basics"
 cupertino search "swift programming language"
-cupertino search "Swift type inference"
-cupertino search "Swift optionals"
-cupertino search "Swift closures"
+cupertino search "Swift variables constants"
+cupertino search "Swift basic types"
 ```
 
 ---
@@ -19,7 +18,8 @@ cupertino search "Swift closures"
 
 | Documento | Descripcion |
 |-----------|-------------|
-| [PLAN_MAESTRO.md](PLAN_MAESTRO.md) | Curriculum completo 48 semanas |
+| [README.md](README.md) | Que es esto y como configurarlo |
+| [PLAN_MAESTRO.md](PLAN_MAESTRO.md) | Curriculum completo ~60 semanas |
 | [PROGRESO.md](PROGRESO.md) | Tracking detallado |
 | [Recursos/CupertinoCheatsheet.md](Recursos/CupertinoCheatsheet.md) | Comandos Cupertino |
 | [Recursos/FormadoresRecomendados.md](Recursos/FormadoresRecomendados.md) | Formadores de elite |
@@ -27,23 +27,34 @@ cupertino search "Swift closures"
 
 ---
 
+## Niveles
+
+| Nivel | Punto de Entrada | Para quien |
+|-------|------------------|-----------|
+| 1 — Iniciacion | Modulo 00, L01 | Nunca has programado |
+| 2 — Principiante | Modulo 00, L05+ | Programas en otro lenguaje |
+| 3 — Intermedio | Modulo 01+ | Conoces Swift y SwiftUI |
+| 4 — Avanzado | Modulo 05+ | Dev iOS experimentado |
+
+---
+
 ## Modulos
 
 | # | Modulo | Semanas | Estado |
 |---|--------|---------|--------|
-| 00 | Fundamentos | 1-8 | En progreso |
-| 01 | Arquitectura | 9-10 | Pendiente |
-| 02 | Diseno y UX | 11-12 | Pendiente |
-| 03 | SwiftUI Avanzado | 13-18 | Pendiente |
-| 04 | Datos y Persistencia | 19-22 | Pendiente |
-| 05 | Hardware y Sensores | 23-26 | Pendiente |
-| 06 | IA y ML | 27-30 | Pendiente |
-| 07 | Integracion Sistema | 31-34 | Pendiente |
-| 08 | Plataformas | 35-38 | Pendiente |
-| 09 | Testing y Calidad | 39-42 | Pendiente |
-| 10 | Seguridad y Performance | 43-44 | Pendiente |
-| 11 | Monetizacion y Distribucion | 45-46 | Pendiente |
-| 12 | Extras y Especializacion | 47-48 | Pendiente |
+| 00 | Fundamentos | 1-12 | Pendiente |
+| 01 | Arquitectura | 13-14 | Pendiente |
+| 02 | Diseno y UX | 15-16 | Pendiente |
+| 03 | SwiftUI Avanzado | 17-22 | Pendiente |
+| 04 | Datos y Persistencia | 23-26 | Pendiente |
+| 05 | Hardware y Sensores | 27-30 | Pendiente |
+| 06 | IA y ML | 31-34 | Pendiente |
+| 07 | Integracion Sistema | 35-38 | Pendiente |
+| 08 | Plataformas | 39-42 | Pendiente |
+| 09 | Testing y Calidad | 43-46 | Pendiente |
+| 10 | Seguridad y Performance | 47-48 | Pendiente |
+| 11 | Monetizacion y Distribucion | 49-50 | Pendiente |
+| 12 | Extras y Especializacion | 51-52 | Pendiente |
 
 ---
 
@@ -62,4 +73,4 @@ cupertino list-frameworks                      # Listar frameworks
 
 ---
 
-*Ultima actualizacion: Febrero 2026*
+*Ultima actualizacion: Marzo 2026*
