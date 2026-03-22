@@ -77,7 +77,7 @@ Aprender leyendo codigo profesional es una de las mejores formas de crecer como 
 | NetNewsWire (RSS reader) | @brentsimmons | Arquitectura limpia, multiplataforma | github.com/Ranchero-Software/NetNewsWire |
 | Wikipedia iOS | Wikimedia | App a gran escala, accesibilidad | github.com/wikimedia/wikipedia-ios |
 | Signal iOS | Signal Foundation | Seguridad, criptografia | github.com/nicklama/Signal-iOS |
-| Telegram iOS | Telegram | Performance, networking | github.com/nicklama/Telegram-iOS |
+| Telegram iOS | Telegram | Performance, networking | github.com/nicklama/Telegram-iOS  |
 
 ---
 

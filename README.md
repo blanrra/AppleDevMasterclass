@@ -2,7 +2,7 @@
 
 > Creado por [@blanrra](https://github.com/blanrra) | [Web del proyecto](https://blanrra.github.io/AppleDevMasterclass/)
 
-Tu **profesor IA personal** para aprender desarrollo Apple desde cero hasta nivel experto. Creado por Blanrra, powered by [Claude Code](https://claude.ai/claude-code) + [Cupertino MCP](https://github.com/nicklama/cupertino-mcp).
+Tu **profesor IA personal** para aprender desarrollo Apple desde cero hasta nivel experto. Creado por Blanrra, powered by [Claude Code](https://claude.ai/claude-code) + [Cupertino MCP](https://github.com/mihaelamj/cupertino).
 
 ---
 
@@ -59,10 +59,10 @@ Cupertino MCP es el servidor que da acceso a la documentacion oficial de Apple. 
 
 ```bash
 # Instalar globalmente
-npm install -g cupertino-mcp
+npm install -g cupertino
 ```
 
-Mas info en [github.com/nicklama/cupertino-mcp](https://github.com/nicklama/cupertino-mcp).
+Mas info en [github.com/mihaelamj/cupertino](https://github.com/mihaelamj/cupertino).
 
 ### 3. Configurar Cupertino como MCP Server en Claude Code
 
