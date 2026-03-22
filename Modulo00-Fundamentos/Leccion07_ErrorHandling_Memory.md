@@ -7,7 +7,7 @@
 ## TL;DR — Resumen en 2 minutos
 
 - **Result type**: Encapsula exito o error en un solo valor — ideal para funciones que pueden fallar
-- **Typed throws** (Swift 6): Puedes especificar exactamente que tipo de error lanza una funcion
+- **Typed throws** (introducido en Swift 5.9, disponible en Swift 6): Puedes especificar exactamente que tipo de error lanza una funcion
 - **ARC**: Swift cuenta automaticamente las referencias a objetos y los libera cuando llegan a cero
 - **Retain cycles**: Dos objetos que se referencian mutuamente nunca se liberan — solucion: `weak` o `unowned`
 - **Value vs Reference**: Los structs se copian (independientes), las clases se comparten (misma memoria)
@@ -75,9 +75,9 @@ let nombre = obtenerUsuario(id: 1)
     .mapError { "Fallo: \($0)" }
 ```
 
-#### Typed Throws (Swift 6)
+#### Typed Throws (Swift 5.9+)
 
-Swift 6 permite especificar el tipo exacto de error que una funcion puede lanzar.
+Desde Swift 5.9 puedes especificar el tipo exacto de error que una funcion puede lanzar (disponible tambien en Swift 6).
 
 ```swift
 func dividir(_ a: Double, entre b: Double) throws(ErrorMatematico) -> Double {
@@ -380,7 +380,7 @@ array2.append(6)     // AHORA se copia (copy-on-write)
 ## Checklist
 
 - [ ] Usar Result type para operaciones que pueden fallar
-- [ ] Entender typed throws de Swift 6
+- [ ] Entender typed throws (Swift 5.9+)
 - [ ] Explicar como funciona ARC (reference counting)
 - [ ] Identificar y resolver retain cycles
 - [ ] Diferenciar weak vs unowned y cuando usar cada uno

@@ -24,7 +24,7 @@ jobs:
           FAILED=0
           for file in $(find . -name "*.swift" -type f); do
             echo "Compilando: $file"
-            if swift -typecheck "$file" 2>&1; then
+            if swiftc -typecheck "$file" 2>&1; then
               echo "  ✅ OK"
             else
               echo "  ❌ FALLO"
