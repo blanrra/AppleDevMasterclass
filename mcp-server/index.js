@@ -308,7 +308,22 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 
       let recommendation;
 
-      if (
+      // Primero verificar si conoce otros lenguajes (Nivel 2 tiene prioridad sobre "nunca" si hay contexto de programacion)
+      const knowsOtherLanguage =
+        exp.includes("python") ||
+        exp.includes("javascript") ||
+        exp.includes("java") ||
+        exp.includes("kotlin") ||
+        exp.includes("c#") ||
+        exp.includes("c++") ||
+        exp.includes("react") ||
+        exp.includes("web") ||
+        exp.includes("backend") ||
+        exp.includes("otro lenguaje");
+
+      if (knowsOtherLanguage) {
+        recommendation = ENTRY_POINTS[1];
+      } else if (
         exp.includes("nunca") ||
         exp.includes("no se programar") ||
         exp.includes("sin experiencia") ||
@@ -318,18 +333,6 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         exp.includes("principiante")
       ) {
         recommendation = ENTRY_POINTS[0];
-      } else if (
-        exp.includes("otro lenguaje") ||
-        exp.includes("python") ||
-        exp.includes("javascript") ||
-        exp.includes("java") ||
-        exp.includes("kotlin") ||
-        exp.includes("c#") ||
-        exp.includes("react") ||
-        exp.includes("web") ||
-        exp.includes("backend")
-      ) {
-        recommendation = ENTRY_POINTS[1];
       } else if (
         exp.includes("swift") &&
         !exp.includes("avanzado") &&
