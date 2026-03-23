@@ -48,6 +48,33 @@ cupertino search "protocol oriented programming"
 
 ## Teoria
 
+### Antes de empezar: ¿Por que no hablamos de SOLID?
+
+Si vienes del mundo Java o de entrevistas tecnicas, probablemente esperabas que este modulo empezara con los principios SOLID (Single Responsibility, Open/Closed, Liskov, Interface Segregation, Dependency Inversion). Es importante entender por que no los usamos como marco principal en Swift.
+
+SOLID nacio para la **Programacion Orientada a Objetos clasica**: herencia, jerarquias de clases, polimorfismo por subclases. Swift no es ese lenguaje. Desde WWDC 2015, Apple definio Swift como un lenguaje que **prioriza la orientacion a protocolos** (POP) sobre la orientacion a objetos.
+
+¿Que significa esto en la practica?
+
+- **Liskov Substitution** habla de jerarquias de herencia — pero en Swift usamos structs (que no heredan) y protocol conformances
+- **Open/Closed** se logra con herencia en OOP — en Swift usamos `extension` y protocol extensions, sin jerarquias
+- **Interface Segregation** pide interfaces pequenas — Swift ya lo hace por diseno: `Equatable`, `Hashable`, `Codable`, `Sendable` son protocolos minimos y combinables
+- **Dependency Inversion** es el mas aplicable, pero en SwiftUI la inyeccion se hace con `@Environment`, no con contenedores DI al estilo Spring
+
+Esto no significa que SOLID sea malo. Significa que **el contexto importa**: aplicar patrones de un paradigma a otro sin adaptarlos genera mas complejidad de la que resuelve.
+
+Los principios que si guian la arquitectura Swift moderna son:
+
+1. **Structs primero** — tipos de valor por defecto, clases solo cuando necesites referencia
+2. **Propiedad clara del estado** — `@State`, `@Binding`, `@Observable`, `@Environment` definen quien es dueno de que
+3. **Protocolos como abstraccion** — desacoplar con protocolos, no con herencia
+4. **`final` por defecto** — las clases se cierran a herencia, favoreciendo static dispatch
+5. **Seguridad en compilacion** — si compila sin warnings ni force unwraps, estas haciendo las cosas bien
+
+> Lectura recomendada: [Julio Cesar Fernandez — "Si te piden principios SOLID en una oferta iOS, ¡huye!"](https://www.linkedin.com/pulse/si-te-piden-principios-solid-en-una-oferta-ios-huye-fern%C3%A1ndez-mu%C3%B1oz-f1vze/) — un analisis profundo de por que SOLID no encaja en Swift y una propuesta de principios nativos del lenguaje.
+
+---
+
 ### Por que ir mas alla de MVVM?
 
 MVVM (Leccion 11) separa la View del ViewModel, pero no dice nada sobre como organizar el acceso a datos, la logica de negocio reutilizable o como intercambiar la fuente de datos sin modificar el ViewModel.
